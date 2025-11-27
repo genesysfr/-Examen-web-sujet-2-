@@ -1,6 +1,21 @@
 .fit-picture {
-  width: 500px;
+  width: 1000px;
 }
+
+.fit-orange {
+  width: 800px;
+}
+
+
+.fit-bleu {
+  width: 700px;
+}
+
+
+.fit-blanc {
+  width: 600px;
+}
+
 
 .buttonpanier {
   border: 0;
