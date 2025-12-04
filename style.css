@@ -13,11 +13,48 @@
 
 
 .fit-blanc {
-  width: 600px;
+  width: 500px;
 }
 
 .Paypal {
-  width: 500px;
+  width: 100px;
+}
+
+.Master {
+  width: 300px;
+}
+
+.Externe {
+  width: 300px;
+}
+
+.Carte {
+  width: 300px;
+}
+
+.h1 {
+  color: #3bc446;
+}
+
+.h2 {
+  color: #3bc446;
+}
+
+.h3 {
+  color: #3bc446;
+}
+
+
+.titre {
+  text-align: center;
+  color: #382d2de5;
+  border-radius: 10px;
+  background-color: rgba(243, 115, 10, 0.171)
+}
+
+.r {
+  text-align: center;
+  color: #382d2de5;
 }
 
 
@@ -67,6 +104,14 @@ body {
 
 
 header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -328,4 +373,41 @@ header {
   box-shadow:
     inset -2px -2px 3px rgba(131, 150, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+.cara {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #0d0e74;
+  border-radius: 10px;
+  background-color: rgb(13, 50, 129);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(8, 42, 94, 0.6),
+    inset -2px -2px 3px rgba(7, 51, 109, 0.6);
+}
+
+.cara:hover {
+  background-color: rgb(14, 46, 105);
+}
+
+.cara:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(8, 29, 100, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.minitexte {
+    font-size: larger;
+
 }
